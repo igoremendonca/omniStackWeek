@@ -23,7 +23,6 @@ app.use(routes);
 // Indica que o nosso app que as configurações do Cors estão ativas
 app.use(cors());
 
-
 // // indicando para aplicação que o / será a raiz da aplicação com método GET
 // app.post('/users', (request, response) => {
 //     return response.json({
